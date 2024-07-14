@@ -1,0 +1,347 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    list-style: none;
+    
+}
+header{
+    width: calc(100% - 60px);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 30px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    font-size: 17px;
+    letter-spacing: 1px;
+    
+}
+nav ul li{
+    padding: 20px;
+}
+figure{
+    display: flex;
+    align-items: center;
+    
+}
+.headerButtonDiv button{
+    background-color: #ff6000;
+    padding: 15px 35px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    border: 1px solid #ff6000;
+    border-radius: 5px;
+}
+.bannerSaction{
+    width: 100%;
+    height: 660px;
+    background:  url("img/banner.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.bannerSectinMain{
+    width: 100%;
+    height: 660px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #0000008f;
+}
+
+
+
+
+
+
+
+.bannerRightFormDiv{
+    flex-basis: calc(24% - 46px);
+    height: 360px;
+    background-color: white;
+    margin-top: 120px;
+    margin-right: 140px;
+    padding: 23px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.bannerRightFormDiv h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+}
+.bannerRightFormDiv form label{
+    display: none;
+}
+.bannerRightFormDiv form input{
+    width: calc(100% - 24px);
+    margin-bottom: 20px;
+    padding: 12px 12px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+.bannerRightFormDiv form button{
+    width: 100%;
+    padding: 15px 0px;
+    background-color: red;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.bannerLeftContentDiv{
+    margin-left: 160px;
+    margin-top: 140px;
+    flex-basis: 50%;
+    
+}
+.bannerLeftContentDiv h1{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 68px;
+} 
+.bannerLeftContentDiv p{
+    font-size: 23px;
+    margin-bottom: 35px;
+    color: white;
+
+}
+.bannerLeftContentDiv button{
+    padding: 15px 45px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.pricingSection{
+    width: 100%;
+    text-align: center;
+    margin: 70px 0px;
+}
+.pricingSection-textContentDin{
+    width: 100%;
+}
+.pricingSection-p1{
+    margin-top: 20px;
+}
+.pricingSection-textContentDin h1{
+    padding: 30px 10px;
+    font-size: 55px;
+    color: #333333;
+}
+.pricingSection-p2{
+    font-size: 17px;
+    color: #333333;
+    margin-bottom: 70px;
+    
+}
+.packageDiv{
+    width: 78%;
+    margin: auto;
+
+}
+.packageDiv-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.packageDiv-row-c{
+    width: 31.5%;
+    height: 630px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 1px #ccc;
+
+
+}
+.packageDiv-row-c-row1 img{
+    border-radius: 5px;
+}
+.packageDiv-row-c-row2{
+    height: 200px;
+    
+}
+.packageDiv-row-c-row2 h4{
+    padding-top: 22px;
+    color: #333333;
+
+}
+.packageDiv-row-c-row2 h1{
+    padding: 15px;
+    color: #333333;
+    font-size: 22px;
+    line-height: 30px;
+
+}
+.packageDiv-row-c-row2 p{
+    font-size: 18px;
+    padding: 0px 10px;
+    line-height: 26px;
+    color: #333333;
+}
+.packageDiv-row-c-row3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.packageBenefitsDiv{
+    flex-basis: 45%;
+    border: 1px solid #333333;
+    border-radius: 15px;
+    margin-bottom: 18px;
+    padding: 5px 0px;
+    font-size: 14px;
+    
+}
+.packageDiv-row-c-row4{
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #22a813;
+}
+.packageDiv-row-c-row5 button{
+    width: 90%;
+    background-color: #22a813;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.faq-Section{
+    width: 100%;
+    margin-top: 110px;
+}
+.faqContentDivMain{
+    width: 55%;
+    margin: auto;
+    padding: 10px;
+}
+.faqContentDivInner{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+       
+}
+.faqContentDivInner>p{
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.faqContentDivInner i{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.faqTexContentDiv{
+    background-color: #f3f4f6;
+    padding: 20px;
+    display: none;
+}
+.faqTexContentDiv>p{
+    padding: 15px;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: normal;
+    text-align: justify;
+}
+.faqContentDivInnerAfterOppen{
+    background-color: #f3f4f6;
+    display: block;
+}
+
+
+
+
+
+
+
+
+.popupFormSection{
+    width: 100%;
+}
+.popupFormMain{
+    width: 80;
+}
+.popupFormDiv{
+    width: calc(25% - 46px);
+    background-color: blueviolet;
+    padding: 23px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 1px blueviolet;
+    position: fixed;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: none;   
+}
+.popupFormDivHedding{
+    display: flex;
+    justify-content: space-between;
+}
+.popupFormDivHedding h3,.popupFormDivHedding i{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.popupFormDiv form{
+    margin-top: 20px;
+}
+.popupFormDiv form label{
+    display: none;
+}
+.popupFormDiv form input{
+    width: calc(100% - 24px);
+    margin-bottom: 20px;
+    padding: 12px 12px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+.popupFormDiv form button{
+    width: 100%;
+    padding: 15px 0px;
+    background-color: red;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+}
+.popupFormDivAfterClick{
+    display: block;
+}
+
